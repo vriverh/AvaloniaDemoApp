@@ -1,0 +1,13 @@
+﻿<Window
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="LayoutDemo">
+    <StackPanel Gap="10">
+        <Button Name="StackPanelDemoButton">StackPanelDemo</Button>
+        <Button Name="WrapPanelDemoButton">WrapPanelDemo</Button>
+        <Button Name="DockPanelDemoButton">DockPanelDemo</Button>
+        <Button Name="GridDemoButton">GridDemo</Button>
+        <Button Name="CanvasDemoButton">CanvasDemo</Button>
+        <Button Name="BorderDemoButton">BorderDemo</Button>
+    </StackPanel>
+</Window>

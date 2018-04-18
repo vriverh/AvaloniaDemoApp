@@ -1,0 +1,12 @@
+﻿<Window
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="DockPanelDemo">
+    <DockPanel LastChildFill="True">
+        <Button Background="Yellow" DockPanel.Dock="Top">Top Button</Button>
+        <Button Background="Red" DockPanel.Dock="Bottom">Bottom Button</Button>
+        <Button Background="Green" DockPanel.Dock="Left">Left Button</Button>
+        <Button Background="Blue" DockPanel.Dock="Right">Left Button</Button>
+        <Button>Remaining Button</Button>
+    </DockPanel>
+</Window>
