@@ -1,7 +1,6 @@
-﻿<Window
+﻿<UserControl
     xmlns="https://github.com/avaloniaui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="ContentControlDemo">
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <StackPanel Gap="10">
         <Button Content="One Button" />
         <Button HorizontalContentAlignment="Left">
@@ -15,4 +14,4 @@
         </Button>
       <Button HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Height="100">Right Bottom Button</Button>
     </StackPanel>
-</Window>
+</UserControl>

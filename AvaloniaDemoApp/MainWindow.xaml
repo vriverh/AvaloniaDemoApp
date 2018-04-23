@@ -1,9 +1,15 @@
 ﻿<Window
     xmlns="https://github.com/avaloniaui"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:control="clr-namespace:AvaloniaDemoApp.Control;assembly=AvaloniaDemoApp"
+    xmlns:layout="clr-namespace:AvaloniaDemoApp.Layout;assembly=AvaloniaDemoApp"
     Title="AvaloniaDemoApp">
-    <StackPanel Gap="10">
-        <Button Name="LayoutDemoButton">LayoutDemo</Button>
-        <Button Name="ControlDemoButton">ControlDemo</Button>
-    </StackPanel>
+    <TabControl>
+        <TabItem Header="Layout Demo">
+            <layout:LayoutDemo />
+        </TabItem>
+        <TabItem Header="Control Demo">
+            <control:ControlDemo />
+        </TabItem>
+    </TabControl>
 </Window>

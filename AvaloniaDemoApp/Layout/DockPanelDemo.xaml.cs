@@ -4,14 +4,11 @@ using Avalonia.Markup.Xaml;
 
 namespace AvaloniaDemoApp.Layout
 {
-    public class DockPanelDemo : Window
+    public class DockPanelDemo : UserControl
     {
         public DockPanelDemo()
         {
             this.InitializeComponent();
-#if DEBUG
-            this.AttachDevTools();
-#endif
         }
 
         private void InitializeComponent()

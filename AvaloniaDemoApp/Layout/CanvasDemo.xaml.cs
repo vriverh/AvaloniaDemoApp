@@ -4,14 +4,11 @@ using Avalonia.Markup.Xaml;
 
 namespace AvaloniaDemoApp.Layout
 {
-    public class CanvasDemo : Window
+    public class CanvasDemo : UserControl
     {
         public CanvasDemo()
         {
             this.InitializeComponent();
-#if DEBUG
-            this.AttachDevTools();
-#endif
         }
 
         private void InitializeComponent()

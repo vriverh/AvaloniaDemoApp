@@ -1,11 +1,10 @@
-﻿<Window
+﻿<UserControl
     xmlns="https://github.com/avaloniaui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="StackPanelDemo">
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <StackPanel Gap="10" Orientation="Vertical">
         <TextBlock>A Button Stack</TextBlock>
         <Button Background="Yellow">Button 1</Button>
         <Button Background="Red">Button 2</Button>
         <Button Background="Green">Button 2</Button>
     </StackPanel>
-</Window>
+</UserControl>

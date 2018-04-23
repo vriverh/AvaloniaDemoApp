@@ -4,7 +4,7 @@ using Avalonia.Markup.Xaml;
 
 namespace AvaloniaDemoApp.Layout
 {
-    public class StackPanelDemo : Window
+    public class StackPanelDemo : UserControl
     {
         public StackPanelDemo()
         {

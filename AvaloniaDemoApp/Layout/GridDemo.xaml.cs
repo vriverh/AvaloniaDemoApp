@@ -4,14 +4,11 @@ using Avalonia.Markup.Xaml;
 
 namespace AvaloniaDemoApp.Layout
 {
-    public class GridDemo : Window
+    public class GridDemo : UserControl
     {
         public GridDemo()
         {
             this.InitializeComponent();
-#if DEBUG
-            this.AttachDevTools();
-#endif
         }
 
         private void InitializeComponent()

@@ -14,16 +14,16 @@ namespace AvaloniaDemoApp
 #if DEBUG
             this.AttachDevTools();
 #endif
-            this.FindControl<Button>("LayoutDemoButton").Click += (s, e) =>
-            {
-                LayoutDemo layoutDemo = new LayoutDemo();
-                layoutDemo.ShowDialog();
-            };
-            this.FindControl<Button>("ControlDemoButton").Click += (s, e) =>
-            {
-                ControlDemo controlDemo = new ControlDemo();
-                controlDemo.ShowDialog();
-            };
+            //this.FindControl<Button>("LayoutDemoButton").Click += (s, e) =>
+            //{
+            //    LayoutDemo layoutDemo = new LayoutDemo();
+            //    layoutDemo.ShowDialog();
+            //};
+            //this.FindControl<Button>("ControlDemoButton").Click += (s, e) =>
+            //{
+            //    ControlDemo controlDemo = new ControlDemo();
+            //    controlDemo.ShowDialog();
+            //};
         }
 
         private void InitializeComponent()
