@@ -1,0 +1,18 @@
+﻿<Window
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="ContentControlDemo">
+    <StackPanel Gap="10">
+        <Button Content="One Button" />
+        <Button HorizontalContentAlignment="Left">
+            <Image Source="resm:AvaloniaDemoApp.Images.AvaloniaLogo.png" Width="100" Height="100"/>
+        </Button>
+        <Button>
+          <StackPanel>
+            <TextBlock Text="One TextBlock On Image"/>
+            <Image Source="resm:AvaloniaDemoApp.Images.AvaloniaLogo.png" Width="100" Height="100"/>
+          </StackPanel>
+        </Button>
+      <Button HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Height="100">Right Bottom Button</Button>
+    </StackPanel>
+</Window>

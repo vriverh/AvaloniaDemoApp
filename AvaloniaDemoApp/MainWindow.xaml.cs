@@ -1,6 +1,7 @@
 ﻿using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using AvaloniaDemoApp.Control;
 using AvaloniaDemoApp.Layout;
 
 namespace AvaloniaDemoApp
@@ -17,6 +18,11 @@ namespace AvaloniaDemoApp
             {
                 LayoutDemo layoutDemo = new LayoutDemo();
                 layoutDemo.ShowDialog();
+            };
+            this.FindControl<Button>("ControlDemoButton").Click += (s, e) =>
+            {
+                ControlDemo controlDemo = new ControlDemo();
+                controlDemo.ShowDialog();
             };
         }
 

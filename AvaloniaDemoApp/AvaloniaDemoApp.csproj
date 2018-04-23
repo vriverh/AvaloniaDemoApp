@@ -12,6 +12,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Remove="Control\ControlDemo.xaml" />
+    <None Remove="Images\AvaloniaLogo.png" />
     <None Remove="Layout\BorderDemo.xaml" />
     <None Remove="Layout\CanvasDemo.xaml" />
     <None Remove="Layout\DockPanelDemo.xaml" />
@@ -19,6 +21,9 @@
     <None Remove="Layout\LayoutDemo.xaml" />
     <None Remove="Layout\StackPanelDemo.xaml" />
     <None Remove="Layout\WrapPanelDemo.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\AvaloniaLogo.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.6.1" />
@@ -30,6 +35,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Update="Control\ContentControlDemo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Control\ControlDemo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Layout\BorderDemo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
