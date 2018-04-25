@@ -12,6 +12,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Remove="Control\ButtonDemo.xaml" />
     <None Remove="Control\ControlDemo.xaml" />
     <None Remove="Images\AvaloniaLogo.png" />
     <None Remove="Layout\BorderDemo.xaml" />
@@ -35,6 +36,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Update="Control\ButtonDemo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Control\ContentControlDemo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

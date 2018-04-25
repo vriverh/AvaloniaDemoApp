@@ -6,5 +6,8 @@
         <TabItem Header="StackPanelDemo">
             <control:ContentControlDemo />
         </TabItem>
+        <TabItem Header="ButtonDemo">
+            <control:ButtonDemo />
+        </TabItem>
     </TabControl>
 </UserControl>

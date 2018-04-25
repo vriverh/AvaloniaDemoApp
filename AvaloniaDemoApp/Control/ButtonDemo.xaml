@@ -1,0 +1,8 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel Gap="10">
+        <Button Name="button1" Background="Yellow" IsDefault="True">Button 1</Button>
+        <Button Name="button2" Background="Red" Content="Button 2" ClickMode="Press"/>
+        <Button Background="Green">Button 3</Button>
+        <TextBlock Name="txt">No Button</TextBlock>
+    </StackPanel>
+</UserControl>
