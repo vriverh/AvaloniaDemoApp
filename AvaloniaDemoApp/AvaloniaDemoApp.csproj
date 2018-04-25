@@ -14,6 +14,8 @@
   <ItemGroup>
     <None Remove="Control\ButtonDemo.xaml" />
     <None Remove="Control\ControlDemo.xaml" />
+    <None Remove="Control\RepeatButtonDemo.xaml" />
+    <None Remove="Control\ToggleButtonDemo.xaml" />
     <None Remove="Images\AvaloniaLogo.png" />
     <None Remove="Layout\BorderDemo.xaml" />
     <None Remove="Layout\CanvasDemo.xaml" />
@@ -43,6 +45,12 @@
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Control\ControlDemo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Control\RepeatButtonDemo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Control\ToggleButtonDemo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Layout\BorderDemo.xaml">

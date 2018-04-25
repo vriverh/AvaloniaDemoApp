@@ -9,5 +9,11 @@
         <TabItem Header="ButtonDemo">
             <control:ButtonDemo />
         </TabItem>
+        <TabItem Header="RepeatButtonDemo">
+            <control:RepeatButtonDemo />
+        </TabItem>
+        <TabItem Header="ToggleButtonDemo">
+            <control:ToggleButtonDemo />
+        </TabItem>
     </TabControl>
 </UserControl>
