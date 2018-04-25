@@ -1,0 +1,16 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel Gap="50" Orientation="Horizontal">
+        <StackPanel Gap="10">
+            <TextBlock Text="Group 1" />
+            <RadioButton IsChecked="True">Gropu 1</RadioButton>
+            <RadioButton>Gropu 1</RadioButton>
+            <RadioButton>Gropu 1</RadioButton>
+        </StackPanel>
+        <StackPanel Gap="10">
+            <TextBlock Text="Group 2" />
+            <RadioButton>Gropu 2</RadioButton>
+            <RadioButton IsChecked="True">Gropu 2</RadioButton>
+            <RadioButton IsChecked="{x:Null}" IsThreeState="True">Gropu 2</RadioButton>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

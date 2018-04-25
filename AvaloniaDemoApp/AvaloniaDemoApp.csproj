@@ -13,7 +13,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Control\ButtonDemo.xaml" />
+    <None Remove="Control\CheckBoxDemo.xaml" />
     <None Remove="Control\ControlDemo.xaml" />
+    <None Remove="Control\RadioButtonDemo.xaml" />
     <None Remove="Control\RepeatButtonDemo.xaml" />
     <None Remove="Control\ToggleButtonDemo.xaml" />
     <None Remove="Images\AvaloniaLogo.png" />
@@ -41,10 +43,16 @@
     <EmbeddedResource Update="Control\ButtonDemo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Control\CheckBoxDemo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Control\ContentControlDemo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Control\ControlDemo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Control\RadioButtonDemo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Control\RepeatButtonDemo.xaml">

@@ -15,5 +15,11 @@
         <TabItem Header="ToggleButtonDemo">
             <control:ToggleButtonDemo />
         </TabItem>
+        <TabItem Header="CheckBoxDemo">
+            <control:CheckBoxDemo />
+        </TabItem>
+        <TabItem Header="RadioButtonDemo">
+            <control:RadioButtonDemo />
+        </TabItem>
     </TabControl>
 </UserControl>
