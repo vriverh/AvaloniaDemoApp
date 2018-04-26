@@ -21,5 +21,11 @@
         <TabItem Header="RadioButtonDemo">
             <control:RadioButtonDemo />
         </TabItem>
+        <TabItem Header="ExpanderDemo">
+          <control:ExpanderDemo />
+        </TabItem>
+      <TabItem Header="TabItemDemo">
+        <control:TabItemDemo />
+      </TabItem>
     </TabControl>
 </UserControl>

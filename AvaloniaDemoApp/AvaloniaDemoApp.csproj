@@ -15,8 +15,10 @@
     <None Remove="Control\ButtonDemo.xaml" />
     <None Remove="Control\CheckBoxDemo.xaml" />
     <None Remove="Control\ControlDemo.xaml" />
+    <None Remove="Control\ExpanderDemo.xaml" />
     <None Remove="Control\RadioButtonDemo.xaml" />
     <None Remove="Control\RepeatButtonDemo.xaml" />
+    <None Remove="Control\TabItemDemo.xaml" />
     <None Remove="Control\ToggleButtonDemo.xaml" />
     <None Remove="Images\AvaloniaLogo.png" />
     <None Remove="Layout\BorderDemo.xaml" />
@@ -35,6 +37,9 @@
     <PackageReference Include="Avalonia.Desktop" Version="0.6.1" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Control\TabItemDemo.xaml.cs">
+      <DependentUpon>TabItemDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Layout\GridDemo.xaml.cs">
       <DependentUpon>GridDemo.xaml</DependentUpon>
     </Compile>
@@ -52,10 +57,16 @@
     <EmbeddedResource Update="Control\ControlDemo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Control\ExpanderDemo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Control\RadioButtonDemo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Control\RepeatButtonDemo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Control\TabItemDemo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Control\ToggleButtonDemo.xaml">

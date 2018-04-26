@@ -1,0 +1,19 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <TabControl>
+        <TabItem Header="Tab One">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="This is Tab One" />
+        </TabItem>
+        <TabItem Header="Tab Two" IsSelected="True">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="This is Tab Two" />
+        </TabItem>
+        <TabItem >
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Image Tab" />
+                    <Image Width="30" Height="30" Source="resm:AvaloniaDemoApp.Images.AvaloniaLogo.png" />
+                </StackPanel>
+            </TabItem.Header>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="This is Image Tab Item" />
+        </TabItem>
+    </TabControl>
+</UserControl>
